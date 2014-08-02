@@ -19,4 +19,4 @@ RUN npm install -g bower
 VOLUME ["/data"]
 WORKDIR /data
 
-CMD ["bower","install"]
+CMD ["bower","update"]
